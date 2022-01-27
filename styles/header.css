@@ -5,17 +5,18 @@ body, html {
   height:100%;
   margin: 0;
   font-family: Arial;
-  background-image: url("../images/full.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .header {
-  padding: 20px;
-  text-align: center;
+  padding: 40px;
+  /* text-align: center;
   color: rgb(41, 100, 230);
-  font-size: 30px;
+  font-size: 30px; */
+  background-image: url("../images/bckgrnd.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color:rgba(253, 236, 166);
 }
 
 /* Style tab links */
@@ -44,6 +45,6 @@ body, html {
 }
 
 #Home {background-color: rgba(245, 245, 220, 0.500);}
-#Projects {background-color: rgba(18, 74, 196, 0.500);}
-#Influencers {background-color: rgba(103, 219, 99, 0.5);}
-#Temporary {background-color: rgba(216, 214, 90, 0.5);}
+#Projects {background-color: rgba(120, 155, 233, 0.466);}
+#Influencers {background-color: rgba(121, 209, 118, 0.336);}
+#Temporary {background-color: rgba(204, 109, 212, 0.37);}
